@@ -1,0 +1,54 @@
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 900px;
+    height: 700px;
+    position: relative;
+}
+
+.con {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+
+.div1 {
+    width: 100%;
+    height: 49.5%;
+    background-image: linear-gradient(to right, red 245px, white 245px, white 250px, green 250px);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.div2 {
+    width: 100%;
+    height: 49.5%;
+    background-image: linear-gradient(to right, cornflowerblue 245px, white 245px, white 250px, yellow 250px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.div3 {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
